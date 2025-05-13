@@ -16,9 +16,9 @@ public class UserInterface {
     private JFrame frame;
     private JButton start;
     private JButton stop;
-    private JButton store;
+    // private JButton store;
     private JTextField text;
-    private String directory;
+    // private String directory;
 
     public UserInterface(int oneD, String title, String startButton, String stopButton, String startHint, String stopHint){
         this.frame = new JFrame(title);
